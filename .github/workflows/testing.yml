@@ -43,7 +43,7 @@ jobs:
     - name: Install frontend dependecies
       run: |
         npm ci
-        npm run dev
+        npm run build
 
     - name: Run testsuit
       run: php artisan test
